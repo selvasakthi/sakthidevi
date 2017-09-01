@@ -9,9 +9,9 @@ int main()
     if (number<=0)
     {
            
-       printf("You entered a negative number.");
+       printf("the number is negative number.");
     }
     else
-        printf("You entered a positive number.");
+        printf("the number is positive number.");
     return 0;
 }
