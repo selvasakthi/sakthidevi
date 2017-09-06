@@ -1,18 +1,16 @@
 #include<iostream.h>
-#include<conio.h>
 void main()
 {
-	clrscr();
-	char c;
+	char h;
 	cout<<"Enter a character: ";
-	cin>>c;
-	if((c>='a'&& c<='z') || (c>='A' && c<='Z'))
+	cin>>h;
+	if((h>='a'&&h<='z')||(h>='A'&&h<='Z'))
 	{
-		cout<<c<<" is an alphabet";
+		cout<<h<<"is an alphabet";
 	}
 	else
 	{
-		cout<<c<<" is not an alphabet";
+		cout<<h<<"is not an alphabet";
 	}
 	getch();
 }
