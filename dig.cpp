@@ -1,5 +1,4 @@
 #include<iostream.h>
-#include<conio.h>
 void main()
 {
 int n,a=0;
