@@ -9,11 +9,11 @@ if(x>y)&&(x<z)
 printf("x is large");
 }
 else
-if(y>z)
+if(y>z)&&(y>x)
 {
 printf("y is large");
 }
 else
 {
-printf("z is large");
+printf("x is large");
 }
