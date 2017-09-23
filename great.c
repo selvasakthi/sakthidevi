@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int x,y,z;
+double x,y,z;
 print("enter the value of x,y,z");
-scanf("%d",&x,&y,&z);
+scanf("%ld",&x,&y,&z);
 if(x>y)&&(x<z)
 {
 printf("x is large");
