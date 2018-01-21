@@ -2,7 +2,7 @@
 #include<string.h>
 void main()
 {
-    int a[10],n,i,t;
+    int a[10],n,i,b;
     printf("Enter the count");
     scanf("%d",&n);
     for(i=0;i<n;i++)
@@ -13,9 +13,9 @@ void main()
     {
         if(a[i]>a[i+1])
         {
-            t=a[i];
+            b=a[i];
             a[i]=a[i+1];
-            a[i+1]=t;
+            a[i+1]=b;
         }
     }
     printf("The largest number is %d",a[n-1]);
