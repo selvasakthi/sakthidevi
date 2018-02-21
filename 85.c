@@ -2,9 +2,9 @@
 int main()
 {
 	char a[10];
-	int i,len;
+	int i,l;
 	scanf("%s",a);
-	len=strlen(a);
+	l=strlen(a);
 	for(i=0;i<len;i++)
 	{
 	   	printf("%c",a[i]);
