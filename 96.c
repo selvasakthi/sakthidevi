@@ -1,19 +1,23 @@
 #include<stdio.h>
 void main()
 {
-    int a,flag=0;
+    int a,flag=0,i;
     printf("enter the value");
     scanf("%d",&a);
-    if(a%2==0)
+    for(i=2;i<=a/2;i++)
     {
-        flag=1;
+        if(a%i==0)
+        {
+            flag=1;
+            break;
+        }
     }
-    if(flag==0)
-    {
-        printf("prime number");
-    }
-    else
-    {
-        printf("composite");
-    }
+        if(flag==0)
+        {
+            printf("prime number");
+        }
+        else
+        {
+            printf("composite number");
+        }
 }
